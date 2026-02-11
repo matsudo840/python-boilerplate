@@ -1,4 +1,4 @@
-# Pythonプロジェクト
+# cline-pg
 
 このリポジトリはPythonプロジェクトのボイラープレートです。
 
@@ -6,7 +6,7 @@
 
 - setuptoolsを使用したシンプルなパッケージング
 - src/とtests/ディレクトリによる構造化
-- メインプログラムのエントリーポイント
+- メインプログラムのエントリーポイント (例: <code>python -m cline_pg.main</code>)
 - pytestを使用したテスト例
 - Dockerによる開発環境のサポート
 
@@ -14,7 +14,7 @@
 
 メインプログラムの実行:
 
-    python -m my_project.main
+    python -m cline_pg.main
 
 ### Dockerを使用する場合
 
@@ -51,4 +51,3 @@ docker compose down
 
 ```bash
 docker compose exec app pytest
-```
